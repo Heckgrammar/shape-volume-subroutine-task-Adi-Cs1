@@ -7,26 +7,20 @@ class AreaCalculator
     {
         return 3.14 * radius * radius;
     }
-
-    // Method to calculate the area of a triangle
     static double TriangleArea(double baseLength, double height)
     {
         return 0.5 * baseLength * height;
     }
-
-    // Method to calculate the area of a rectangle
-    static double RectangleArea(double length, double width)
+ static double RectangleArea(double length, double width)
     {
         return length * width;
     }
 
-    // calculate the area of a regular pentagon
+ calculate the area of a regular pentagon
     static double PentagonArea(double side)
     {
         return (5 * side * side) / (4 * Math.Tan(Math.PI / 5));
     }
-
-    // Method to calculate the area of a regular octagon
     static double OctagonArea(double side)
     {
         return 2 * (1 + Math.Sqrt(2)) * side * side;
