@@ -5,7 +5,7 @@ class AreaCalculator
     // Method to calculate the area of a circle
     static double CircleArea(double radius)
     {
-        return Math.PI * radius * radius;
+        return 3.14 * radius * radius;
     }
 
     // Method to calculate the area of a triangle
